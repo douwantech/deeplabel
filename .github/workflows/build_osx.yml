@@ -22,7 +22,7 @@ jobs:
       - name: Run QMake
         run: qmake -makefile -o Makefile DeepLabel.pro
 
-      - name: Run Make
+      - name: Run Make Deeplabel
         run: make -j4
 
       - name: Deploy
